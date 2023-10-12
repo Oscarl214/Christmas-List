@@ -34,7 +34,9 @@ Users can view each family member and click on their perspective card that navig
 Starter Code/SetUp Provided by:
 
 - [Jack Herrington](https://github.com/jherr)
-  Rest:
+
+- Rest:
+
 - [Oscar Leal](https://github.com/Oscarl214)
 
 ## UI
