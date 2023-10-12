@@ -1,0 +1,8 @@
+query getMember {
+  family {
+    name
+    list
+    image
+    description
+  }
+}

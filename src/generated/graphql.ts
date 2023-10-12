@@ -15,78 +15,55 @@ export type Scalars = {
   Float: number;
 };
 
-export type Dog = {
-  __typename?: 'Dog';
-  ageInWeeks: Scalars['Float'];
-  attributes: Array<DogAttribute>;
-  availableDate: Scalars['String'];
-  breed: Scalars['String'];
-  color: Scalars['String'];
-  description: Array<Scalars['String']>;
-  fee: Scalars['Float'];
+export type FamilyMember = {
+  __typename?: 'FamilyMember';
+  description: Scalars['String'];
   image: Scalars['String'];
+  list: Array<Scalars['String']>;
   name: Scalars['ID'];
-  sex: Scalars['String'];
-  weight: Scalars['Float'];
-};
-
-export type DogAttribute = {
-  __typename?: 'DogAttribute';
-  key: Scalars['ID'];
-  value: Scalars['String'];
 };
 
 export type Query = {
   __typename?: 'Query';
-  dog?: Maybe<Dog>;
-  dogs: Array<Dog>;
+  FamilyMember?: Maybe<FamilyMember>;
+  family: Array<FamilyMember>;
 };
 
 
-export type QueryDogArgs = {
+export type QueryFamilyMemberArgs = {
   name: Scalars['String'];
 };
 
-export type DogByNameQueryVariables = Exact<{
+export type MemberByNameQueryVariables = Exact<{
   name: Scalars['String'];
 }>;
 
 
-export type DogByNameQuery = { __typename?: 'Query', dog?: { __typename?: 'Dog', name: string, breed: string, ageInWeeks: number, image: string, sex: string, description: Array<string>, color: string, attributes: Array<{ __typename?: 'DogAttribute', key: string, value: string }> } | null };
+export type MemberByNameQuery = { __typename?: 'Query', FamilyMember?: { __typename?: 'FamilyMember', name: string, description: string, list: Array<string>, image: string } | null };
 
-export type GetDogsQueryVariables = Exact<{ [key: string]: never; }>;
-
-
-export type GetDogsQuery = { __typename?: 'Query', dogs: Array<{ __typename?: 'Dog', name: string, breed: string, ageInWeeks: number, image: string, sex: string, weight: number, fee: number }> };
+export type GetMemberQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export const DogByNameDocument = gql`
-    query dogByName($name: String!) {
-  dog(name: $name) {
+export type GetMemberQuery = { __typename?: 'Query', family: Array<{ __typename?: 'FamilyMember', name: string, list: Array<string>, image: string, description: string }> };
+
+
+export const MemberByNameDocument = gql`
+    query memberByName($name: String!) {
+  FamilyMember(name: $name) {
     name
-    breed
-    ageInWeeks
-    image
-    sex
     description
-    color
-    attributes {
-      key
-      value
-    }
+    list
+    image
   }
 }
     `;
-export const GetDogsDocument = gql`
-    query getDogs {
-  dogs {
+export const GetMemberDocument = gql`
+    query getMember {
+  family {
     name
-    breed
-    ageInWeeks
+    list
     image
-    sex
-    weight
-    fee
+    description
   }
 }
     `;
@@ -98,11 +75,11 @@ const defaultWrapper: SdkFunctionWrapper = (action, _operationName, _operationTy
 
 export function getSdk(client: GraphQLClient, withWrapper: SdkFunctionWrapper = defaultWrapper) {
   return {
-    dogByName(variables: DogByNameQueryVariables, requestHeaders?: Dom.RequestInit["headers"]): Promise<DogByNameQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<DogByNameQuery>(DogByNameDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'dogByName', 'query');
+    memberByName(variables: MemberByNameQueryVariables, requestHeaders?: Dom.RequestInit["headers"]): Promise<MemberByNameQuery> {
+      return withWrapper((wrappedRequestHeaders) => client.request<MemberByNameQuery>(MemberByNameDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'memberByName', 'query');
     },
-    getDogs(variables?: GetDogsQueryVariables, requestHeaders?: Dom.RequestInit["headers"]): Promise<GetDogsQuery> {
-      return withWrapper((wrappedRequestHeaders) => client.request<GetDogsQuery>(GetDogsDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'getDogs', 'query');
+    getMember(variables?: GetMemberQueryVariables, requestHeaders?: Dom.RequestInit["headers"]): Promise<GetMemberQuery> {
+      return withWrapper((wrappedRequestHeaders) => client.request<GetMemberQuery>(GetMemberDocument, variables, {...requestHeaders, ...wrappedRequestHeaders}), 'getMember', 'query');
     }
   };
 }

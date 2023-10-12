@@ -1,0 +1,8 @@
+query memberByName($name: String!) {
+  FamilyMember(name: $name) {
+    name
+    description
+    list
+    image
+  }
+}

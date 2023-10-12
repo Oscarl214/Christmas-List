@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Link from "next/link";
-import Head from "next/head";
+import React, { useState } from 'react';
+import Link from 'next/link';
+import Head from 'next/head';
 import {
   AppShell,
   Navbar,
@@ -11,8 +11,8 @@ import {
   MediaQuery,
   Burger,
   useMantineTheme,
-} from "@mantine/core";
-import { Home, DogBowl } from "tabler-icons-react";
+} from '@mantine/core';
+import { Home, DogBowl } from 'tabler-icons-react';
 
 export default function Layout({ children }) {
   const theme = useMantineTheme();
@@ -36,7 +36,7 @@ export default function Layout({ children }) {
             width={{ sm: 200 }}
           >
             <Link href="/" passHref>
-              <Box sx={{ display: "flex" }}>
+              <Box sx={{ display: 'flex' }}>
                 <Home />
                 <Title order={5} ml={10}>
                   Home
@@ -51,13 +51,13 @@ export default function Layout({ children }) {
             p="xs"
             sx={(theme) => ({
               backgroundColor: theme.colors.blue[9],
-              color: "white",
+              color: 'white',
             })}
           >
             <div
-              style={{ display: "flex", alignItems: "center", height: "100%" }}
+              style={{ display: 'flex', alignItems: 'center', height: '100%' }}
             >
-              <MediaQuery largerThan="sm" styles={{ display: "none" }}>
+              <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
                 <Burger
                   opened={opened}
                   onClick={() => setOpened((o) => !o)}

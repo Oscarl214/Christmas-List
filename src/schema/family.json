@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Oscar",
+    "description": "Most Athletic/Handsome one of the family, coder",
+    "list": [
+      "RK61 Mechanical Keyboard WireLess (White)",
+      "True Brvnd, Black UpsideDown Dallas Hat"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Zoro.jpg"
+  },
+  {
+    "name": "Jerardo",
+    "description": "Mommas Boy, Father, Sport Fanatic, Beer Lover",
+    "info": "Shoes: Size 15, Shirts: Size 2XL",
+    "list": [
+      "Dallas Cowboys Gear",
+      "Mavs Gear",
+      "Texas Rangers Gear",
+      "Stars Gear",
+      "Caps",
+      "Colognes",
+      "Crocs",
+      "Shirts"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Homer.png"
+  },
+  {
+    "name": "Patty",
+    "description": "Mother, StoryTeller, DentistAssistant",
+    "info": "Shoes: Size 9, Shirts: Size XXL, Bottoms: SizeXL, Tops: Size XXL",
+    "list": [
+      "Books",
+      "Barnes & Noble Gift card",
+      "Sephora Gift Card",
+      "Ulta Gift Card",
+      "On CLoud Shoes",
+      "Workout clothes",
+      "Cleaning Services"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Dragon.jpg"
+  },
+  {
+    "name": "OJ ",
+    "description": "Mr.Cool Guy, gamer, son",
+    "info": "Shoes: Size 13, Shirts: Size XXL, Bottoms: Size XXL",
+    "list": [
+      "Mortal Kombat 1",
+      "Trench Coat",
+      "Pajamas",
+      "Tail gate Coat",
+      "Shirts any kind",
+      "Pajamas Size:XXL",
+      "Black Polo Boots",
+      "Black Phone Case",
+      "New AirPods",
+      "SpiderMan 2",
+      "Playstation GiftCard",
+      "SketchBook"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Batman.jpg"
+  },
+  {
+    "name": "Eva",
+    "description": "Ms.Attitute, youngest girl, daughter",
+    "info": "Shoes: Size 9, Bottoms: Size 12 or 14, Tops: Size M or L, Jackets: Size L",
+    "list": [
+      "Jordans:11's: Cherry Reds or Breads: Jordan4s, Jordan 3s",
+      "1st Hey Dudes: Black or Gray Chanclas",
+      "Jewelry:necklaces or bracelets",
+      "Clothes:Jackets,Jeans,cute shirts, sweatpants,dresses,winterclothes",
+      "Gift Cards",
+      "Perfumes",
+      "Lotions",
+      "Candles",
+      "Cowboys Jersey",
+      "Body Mirror",
+      "SHEIN cart"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/MadPFG.jpg"
+  }
+]

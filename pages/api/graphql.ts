@@ -1,11 +1,11 @@
-import "reflect-metadata";
-import { ApolloServer } from "apollo-server-micro";
-import { buildSchema } from "type-graphql";
+import 'reflect-metadata';
+import { ApolloServer } from 'apollo-server-micro';
+import { buildSchema } from 'type-graphql';
 
-import { DogsResolver } from "../../src/schema/dogs.resolver";
+import { FamilyResolver } from '../../src/schema/family.resolver';
 
 const schema = await buildSchema({
-  resolvers: [DogsResolver],
+  resolvers: [FamilyResolver],
 });
 
 const server = new ApolloServer({
@@ -22,5 +22,5 @@ const startServer = server.start();
 
 export default async function handler(req, res) {
   await startServer;
-  await server.createHandler({ path: "/api/graphql" })(req, res);
+  await server.createHandler({ path: '/api/graphql' })(req, res);
 }
