@@ -6,7 +6,7 @@
 
 A personal site that documents my loved ones christmas list that is dedicated for the family to help know what to get for secret santa.
 
-I pushed myself to navigate this starter code provided by Jack Herrington (Link is noted), to familiarize myself with NextJs and to utilize graphql.
+I pushed myself to navigate this starter code provided by Jack Herrington (Link is noted), to familiarize myself with TypeScript & NextJs and to keep utilizing graphql.
 
 ## Business Case
 
