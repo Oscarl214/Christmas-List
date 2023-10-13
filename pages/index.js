@@ -5,7 +5,6 @@ import { Grid, Card, Image, Text, Title } from '@mantine/core';
 
 import { queryClient, getMember } from '../src/api';
 
-import christmasBG from '../public/christmasBG.jpg';
 export async function getServerSideProps() {
   await queryClient.prefetchQuery(['members'], () => getMember());
 

@@ -21,14 +21,8 @@ export default function Layout({ children }) {
   return (
     <div>
       <Head>
-        <title>Leal's Christmas Tree</title>
+        <title>Leals Christmas Tree</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <AppShell
         padding="md"
@@ -73,7 +67,7 @@ export default function Layout({ children }) {
               </MediaQuery>
               <ChristmasTree className="text-3xl text-green-500 " />
               <Text ml={10} className="text-xl font-bold ">
-                Leal's Christmas Wishes
+                Leals Christmas Wishes
               </Text>
               <Snowflake className="text-3xl text-blue-300 ml-4" />
             </div>
