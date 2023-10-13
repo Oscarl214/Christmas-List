@@ -1,9 +1,9 @@
-import { Hydrate, QueryClientProvider } from "react-query";
+import { Hydrate, QueryClientProvider } from 'react-query';
 
-import { queryClient } from "../src/api";
-import Layout from "../components/Layout";
+import { queryClient } from '../src/api';
+import Layout from '../components/Layout';
 
-import "../styles/globals.css";
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (

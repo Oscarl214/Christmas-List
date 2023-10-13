@@ -12,7 +12,7 @@ import {
   Burger,
   useMantineTheme,
 } from '@mantine/core';
-import { Home, DogBowl } from 'tabler-icons-react';
+import { Home, ChristmasTree } from 'tabler-icons-react';
 
 export default function Layout({ children }) {
   const theme = useMantineTheme();
@@ -21,8 +21,14 @@ export default function Layout({ children }) {
   return (
     <div>
       <Head>
-        <title>Oregon Humane Adoptable Dogs</title>
+        <title>Leal's Christmas Tree</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <AppShell
         padding="md"
@@ -34,6 +40,11 @@ export default function Layout({ children }) {
             hiddenBreakpoint="sm"
             hidden={!opened}
             width={{ sm: 200 }}
+            style={{
+              backgroundImage: `url("./christmasBG.jpg")`,
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+            }}
           >
             <Link href="/" passHref>
               <Box sx={{ display: 'flex' }}>
@@ -46,15 +57,9 @@ export default function Layout({ children }) {
           </Navbar>
         }
         header={
-          <Header
-            height={60}
-            p="xs"
-            sx={(theme) => ({
-              backgroundColor: theme.colors.blue[9],
-              color: 'white',
-            })}
-          >
+          <Header height={60} p="xs">
             <div
+              className="bg-red"
               style={{ display: 'flex', alignItems: 'center', height: '100%' }}
             >
               <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
@@ -66,9 +71,9 @@ export default function Layout({ children }) {
                   mr="xl"
                 />
               </MediaQuery>
-              <DogBowl />
-              <Text ml={10} size="md">
-                Oregon Humane Adoptable Dogs
+              <ChristmasTree className="text-3xl text-green-500 " />
+              <Text ml={10} className="text-xl font-bold ">
+                Leal's Christmas Wishes
               </Text>
             </div>
           </Header>

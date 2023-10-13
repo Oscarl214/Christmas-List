@@ -11,6 +11,9 @@ export class FamilyMember {
   @Field(() => String)
   image: string;
 
+  @Field(() => String)
+  info: string;
+
   @Field(() => [String])
   list: string[];
 }

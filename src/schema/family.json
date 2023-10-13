@@ -1,11 +1,12 @@
 [
   {
     "name": "Oscar",
-    "description": "Most Athletic/Handsome one of the family, coder",
+    "description": "Most Athletic/Handsome one of the family, Coder",
     "list": [
       "RK61 Mechanical Keyboard WireLess (White)",
       "True Brvnd, Black UpsideDown Dallas Hat"
     ],
+    "info": "I would prefer the keyboard wireless.",
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Zoro.jpg"
   },
   {
@@ -26,7 +27,7 @@
   },
   {
     "name": "Patty",
-    "description": "Mother, StoryTeller, DentistAssistant",
+    "description": "",
     "info": "Shoes: Size 9, Shirts: Size XXL, Bottoms: SizeXL, Tops: Size XXL",
     "list": [
       "Books",
@@ -40,8 +41,8 @@
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Dragon.jpg"
   },
   {
-    "name": "OJ ",
-    "description": "Mr.Cool Guy, gamer, son",
+    "name": "OJ",
+    "description": "Mr.Cool Guy",
     "info": "Shoes: Size 13, Shirts: Size XXL, Bottoms: Size XXL",
     "list": [
       "Mortal Kombat 1",
@@ -61,13 +62,13 @@
   },
   {
     "name": "Eva",
-    "description": "Ms.Attitute, youngest girl, daughter",
+    "description": "Ms.Attitute",
     "info": "Shoes: Size 9, Bottoms: Size 12 or 14, Tops: Size M or L, Jackets: Size L",
     "list": [
       "Jordans:11's: Cherry Reds or Breads: Jordan4s, Jordan 3s",
       "1st Hey Dudes: Black or Gray Chanclas",
       "Jewelry:necklaces or bracelets",
-      "Clothes:Jackets,Jeans,cute shirts, sweatpants,dresses,winterclothes",
+      "Clothes:Jackets, Jeans, cute shirts, sweatpants, dresses, winterclothes",
       "Gift Cards",
       "Perfumes",
       "Lotions",

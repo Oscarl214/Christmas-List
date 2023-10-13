@@ -19,6 +19,7 @@ export type FamilyMember = {
   __typename?: 'FamilyMember';
   description: Scalars['String'];
   image: Scalars['String'];
+  info: Scalars['String'];
   list: Array<Scalars['String']>;
   name: Scalars['ID'];
 };
@@ -39,7 +40,7 @@ export type MemberByNameQueryVariables = Exact<{
 }>;
 
 
-export type MemberByNameQuery = { __typename?: 'Query', FamilyMember?: { __typename?: 'FamilyMember', name: string, description: string, list: Array<string>, image: string } | null };
+export type MemberByNameQuery = { __typename?: 'Query', FamilyMember?: { __typename?: 'FamilyMember', name: string, description: string, list: Array<string>, image: string, info: string } | null };
 
 export type GetMemberQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -54,6 +55,7 @@ export const MemberByNameDocument = gql`
     description
     list
     image
+    info
   }
 }
     `;

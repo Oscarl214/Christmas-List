@@ -4,5 +4,6 @@ query memberByName($name: String!) {
     description
     list
     image
+    info
   }
 }
