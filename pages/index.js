@@ -29,7 +29,9 @@ export default function Home() {
                 <Card.Section>
                   <Image height={350} src={member.image} alt="green iguana" />
                 </Card.Section>
-                <Title order={3}>{member.name}</Title>
+                <Title order={3} className="text-center text-3xl text-white">
+                  {member.name}
+                </Title>
                 <Text className="text-lg text-white">{member.description}</Text>
               </Card>
             </Link>

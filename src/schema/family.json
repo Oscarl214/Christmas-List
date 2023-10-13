@@ -1,7 +1,7 @@
 [
   {
     "name": "Oscar",
-    "description": "Most Athletic/Handsome one of the family, Coder",
+    "description": "Most Athletic/Handsome one of the family",
     "list": [
       "RK61 Mechanical Keyboard WireLess (White)",
       "True Brvnd, Black UpsideDown Dallas Hat"
@@ -10,9 +10,30 @@
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Zoro.jpg"
   },
   {
+    "name": "Karina",
+    "description": "",
+    "list": [""],
+    "info": "",
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/kitty.jpg"
+  },
+  {
+    "name": "Mom",
+    "description": "",
+    "list": [""],
+    "info": "",
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/meme.jpg"
+  },
+  {
+    "name": "Dad",
+    "description": "",
+    "list": [""],
+    "info": "",
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/cowboy.jfif"
+  },
+  {
     "name": "Jerardo",
-    "description": "Mommas Boy, Father, Sport Fanatic, Beer Lover",
-    "info": "Shoes: Size 15, Shirts: Size 2XL",
+    "description": "Father, Sport Fanatic, Beer Lover",
+    "info": "Shoes: Size 15, Shirts: Size 2XLT",
     "list": [
       "Dallas Cowboys Gear",
       "Mavs Gear",
@@ -62,7 +83,7 @@
   },
   {
     "name": "Eva",
-    "description": "Ms.Attitute",
+    "description": "",
     "info": "Shoes: Size 9, Bottoms: Size 12 or 14, Tops: Size M or L, Jackets: Size L",
     "list": [
       "Jordans:11's: Cherry Reds or Breads: Jordan4s, Jordan 3s",
@@ -78,5 +99,58 @@
       "SHEIN cart"
     ],
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/MadPFG.jpg"
+  },
+  {
+    "name": "Mia",
+    "description": "",
+    "info": "",
+    "list": [""],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Hoodrat.jpg"
+  },
+  {
+    "name": "Daisy",
+    "description": "Thing 1",
+    "info": "Sweater: SizeL",
+    "list": [
+      "Lululemon everywhere belt bag: Large 2L",
+      "Alani Nu- Sour PEach",
+      "North Face Sweater",
+      "GiftCards: Ulta, Barnes & Nobles, nuuds Clothing",
+      "Nespresso Machine"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Thing1.webp"
+  },
+  {
+    "name": "Luka",
+    "description": "",
+    "info": "Shoes: Size 9c, Clothes: 3T/4T",
+    "list": [
+      "Animals (Plushies,toys)",
+      "Clothes",
+      "PawPatrol Toys",
+      "Anything you think he would like!"
+    ],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/yoda.avif"
+  },
+  {
+    "name": "Sandra",
+    "description": "Thing 2",
+    "info": "",
+    "list": [""],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Thing1.webp"
+  },
+  {
+    "name": "Marlon",
+    "description": "",
+    "info": "",
+    "list": [""],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Yankees.jpg"
+  },
+  {
+    "name": "Lorenzo",
+    "description": "",
+    "info": "",
+    "list": [""],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Mavs.png"
   }
 ]

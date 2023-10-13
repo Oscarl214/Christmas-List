@@ -12,7 +12,7 @@ import {
   Burger,
   useMantineTheme,
 } from '@mantine/core';
-import { Home, ChristmasTree } from 'tabler-icons-react';
+import { Home, ChristmasTree, Snowflake } from 'tabler-icons-react';
 
 export default function Layout({ children }) {
   const theme = useMantineTheme();
@@ -75,6 +75,7 @@ export default function Layout({ children }) {
               <Text ml={10} className="text-xl font-bold ">
                 Leal's Christmas Wishes
               </Text>
+              <Snowflake className="text-3xl text-blue-300 ml-4" />
             </div>
           </Header>
         }
