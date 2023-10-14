@@ -3,7 +3,9 @@ import { QueryClient } from 'react-query';
 
 import { getSdk } from '../src/generated/graphql';
 
-const gqlClient = new GraphQLClient('http://localhost:3000/api/graphql');
+const gqlClient = new GraphQLClient(
+  'http://https://christmas-list-x5fy.vercel.app/api/graphql'
+);
 export const { memberByName, getMember } = getSdk(gqlClient);
 
 export const queryClient = new QueryClient({
