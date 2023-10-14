@@ -41,6 +41,14 @@ Starter Code/SetUp Provided by:
 
 ## UI
 
+- DesktopView:
+  ![Desktop](./public/Desktop-Dash.png)
+
+- MobileView
+
+  ![Mobile](./public/Mobile-Dash.png)
+  ![Mobile](./public/Mobile-MemberDash.png)
+
 ## Technologies
 
 This personal project was built using the following:
@@ -57,4 +65,4 @@ This personal project was built using the following:
 
 ## LiveSite
 
-Coming Soon.
+[LiveSite](https://christmas-list-x5fy.vercel.app/)

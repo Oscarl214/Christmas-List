@@ -41,7 +41,7 @@ const MemberDetail: React.FunctionComponent<{
           <Image src={data.FamilyMember.image} alt={data.FamilyMember.name} />
         </Grid.Col>
         <Grid.Col xs={12} md={6} lg={4}>
-          <Title order={1} className="text-center text-4xl">
+          <Title order={1} className="text-center text-4xl font-sans">
             {data.FamilyMember.name}
           </Title>
 
