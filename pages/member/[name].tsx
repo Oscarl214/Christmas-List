@@ -46,17 +46,6 @@ const MemberDetail: React.FunctionComponent<{
           </Title>
 
           <Grid mt={10}>
-            <Grid.Col span={7}>
-              <Title
-                order={4}
-                className="text-2xl text-decoration-line: underline"
-              >
-                Important Info
-              </Title>
-              <h2>
-                <a className="text-2xl">{data.FamilyMember.info}</a>
-              </h2>
-            </Grid.Col>
             <Grid.Col span={10}>
               <h1 className="text-2xl font-bold text-red-600 text-decoration-line: underline">
                 Christmas List:
@@ -71,17 +60,16 @@ const MemberDetail: React.FunctionComponent<{
                 </ul>
               )}
             </Grid.Col>
-            <Grid.Col span={4}>
-              <Title order={5}></Title>
-            </Grid.Col>
-            <Grid.Col span={8}>
-              <Text></Text>
-            </Grid.Col>
-            <Grid.Col span={4}>
-              <Title order={5}></Title>
-            </Grid.Col>
-            <Grid.Col span={8}>
-              <Text></Text>
+            <Grid.Col span={7}>
+              <Title
+                order={4}
+                className="text-2xl text-decoration-line: underline"
+              >
+                Important Info
+              </Title>
+              <h2>
+                <a className="text-2xl">{data.FamilyMember.info}</a>
+              </h2>
             </Grid.Col>
           </Grid>
         </Grid.Col>
