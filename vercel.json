@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/graphql": {
-      "src": "api/graphql.js"
-    }
-  }
-}
