@@ -71,6 +71,7 @@
       "Pajamas",
       "Tail gate Coat",
       "Shirts any kind",
+      "Akatsuki coat",
       "Pajamas Size:XXL",
       "Black Polo Boots",
       "Black Phone Case",
@@ -149,8 +150,8 @@
   {
     "name": "Lorenzo",
     "description": "",
-    "info": "",
-    "list": [""],
+    "info": "Size: Medium",
+    "list": ["Cowboys Gear", "Maverick Gear", "Mexico Gear", "Caps", "Cologne"],
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Mavs.png"
   }
 ]
