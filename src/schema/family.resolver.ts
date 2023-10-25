@@ -14,6 +14,7 @@ export class FamilyResolver {
       throw new Error('FamilyMember not found');
     }
     return familymember;
+    console.log(familymember);
   }
 
   @Query(() => [FamilyMember])

@@ -18,6 +18,7 @@ export async function getServerSideProps() {
 export default function Home() {
   const { data } = useQuery(['members'], () => getMember());
 
+  console.log('family Members', data);
   return (
     <div className="bg-red-600">
       <Grid>
