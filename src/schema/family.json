@@ -131,7 +131,7 @@
       "PawPatrol Toys",
       "Anything you think he would like!"
     ],
-    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/yoda.avif"
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Chase.jfif"
   },
   {
     "name": "Sandra",
@@ -146,6 +146,13 @@
     "info": "",
     "list": [""],
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Yankees.jpg"
+  },
+  {
+    "name": "Manuel Antonio",
+    "description": "Coming Soon!",
+    "info": "Size: Baby",
+    "list": ["Baby Clothes", "Pampers", "Ask Sandra and Marlon"],
+    "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/yoda.avif"
   },
   {
     "name": "Lorenzo",
