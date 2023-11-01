@@ -65,7 +65,7 @@ export default function Layout({ children }) {
                   mr="xl"
                 />
               </MediaQuery>
-              <ChristmasTree className="text-3xl text-green-500 " />
+              <ChristmasTree className="text-3xl text-green-500 font-sans" />
               <Text ml={10} className="text-xl font-bold ">
                 Leals Christmas Wishes
               </Text>
