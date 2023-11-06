@@ -12,8 +12,8 @@
   {
     "name": "Karina",
     "description": "",
-    "list": [""],
-    "info": "",
+    "list": ["GymShark: Vital seamless leggins", "GymShark: Adapt fleck leggings"],
+    "info": "Leggins: Size M || Any Color",
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/kitty.jpg"
   },
   {
@@ -130,6 +130,7 @@
       "North Face Sweater",
       "GiftCards: Ulta, Barnes & Nobles, nuuds Clothing",
       "Nespresso Machine"
+      , "Heating Pad"
     ],
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Thing1.webp"
   },
@@ -148,8 +149,8 @@
   {
     "name": "Sandra",
     "description": "Thing 2",
-    "info": "",
-    "list": [""],
+    "info": "Shoes: Size M 7.5 / W 9, Sweaters: Size L or XL",
+    "list": ["New Balance 530 Shoes (Gray or White Cream)", "Aerie: 'unreal sweater'(oversize sweater)", "Any Oversized Sweater", "Ariana grande Cloud Perfume", "Chuck Taylor All Star Lift Platform white Converse", "Packing cubes", "Cute pregnant stuff"],
     "image": "https://christmaslist21.s3.us-east-2.amazonaws.com/Thing1.webp"
   },
   {
